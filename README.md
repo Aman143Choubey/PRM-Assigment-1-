@@ -1,5 +1,6 @@
 # PRM-Assigment-1-
 Technical Coding Assessment Python
+
 new_list = []
 d = {}
 list = ['great', 'abc', 'hello','hiyo']
