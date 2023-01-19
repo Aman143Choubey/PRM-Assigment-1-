@@ -1,12 +1,12 @@
-# PRM-Assigment-1-
-Technical Coding Assessment Python
+# PRM-Assigment-1 (Python)
+#Technical Coding Assessment Python
+Question 1
 
-new_list = []
-d = {}
-list = ['great', 'abc', 'hello','hiyo']
-for i in list:
-    d[i[-2]]=i
-m = sorted(d)
-for i in m:
-    new_list.append(d[i])
-print(new_list)
+lst = []
+size = int(input("Enter the number of elements you want to enter in the list : "))
+for i in range(size):
+    element = input("Enter the element :")
+    lst.append(element)
+lst.sort(key=lambda x : x[-2])
+print("\nSorted List\n")
+print(lst)
